@@ -7,7 +7,7 @@ void setup() {
 void loop() {
   digitalWrite(PIN7, LOW);
   delay(1000);
-  for (int i = 0; i < 6; i++){
+  for (int i = 0; i < 5; i++){
     digitalWrite(PIN7, HIGH);
     delay(100);
     digitalWrite(PIN7, LOW);
