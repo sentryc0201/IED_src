@@ -5,7 +5,7 @@
 
 // configurable parameters
 #define SND_VEL 346.0 // sound velocity at 24 celsius degree (unit: m/s)
-#define INTERVAL 1000 // sampling interval (unit: ms)
+#define INTERVAL 25 // sampling interval (unit: ms)
 #define _DIST_MIN 100 // minimum distance to be measured (unit: mm)
 #define _DIST_MAX 300 // maximum distance to be measured (unit: mm)
 #define _DIST_ALPHA 0.5 // EMA weight of new sample (range: 0 to 1). Setting this value to 1 effectively disables EMA filter.
